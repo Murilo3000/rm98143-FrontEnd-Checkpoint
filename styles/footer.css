@@ -1,0 +1,16 @@
+/*Mostra a formatação do roda pé e como tirei ele de uma formatação de lista padrão*/
+.rodape{
+    background-color: var(--azul);
+    display: flex;
+    justify-content: space-around;
+    height: 7.75rem;
+    align-items: center;
+}
+
+.rodape-item{
+    font-size: var(--tamanho-fonte-titulo);
+    font-family: var(--fonte-principal);
+    text-decoration: none;
+    color: var(--branco);
+
+}

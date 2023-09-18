@@ -1,0 +1,32 @@
+/*Define como será a formatação dos Banners dos céus e o texto que aparece nos mesmos*/
+.banner-azul{
+    background-image: url("../imagens/azul.png");
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-laranja{
+    background-image: url("../imagens/laranja.webp");
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-anoitecido{
+    background-image: url("../imagens/noite.jpg");
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.letraBanner{
+    margin-top: 17rem;
+    color: var(--branco);
+    font-size: var(--tamanho-fonte-titulo);
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+}

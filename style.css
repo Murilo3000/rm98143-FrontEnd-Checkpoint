@@ -1,0 +1,24 @@
+/*Uma série de variaveis coringas que foram utilizadas para padronizar o site, assim como a importação dos outros códigos CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+@import url(./styles/cabecalho.css);
+@import url(./styles/banner.css);
+@import url(./styles/sobre.css);
+@import url(./styles/footer.css);
+
+
+:root{
+    --branco: #FFFFFF;
+    --preto: rgb(0, 0, 0);
+    --azul: rgb(63, 114, 255);
+    --tamanho-fonte: 20px;
+    --tamanho-fonte-titulo: 60px;
+    --fonte-principal: "Poppins";
+    --fonte-secundario: "Josefin Sans";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}

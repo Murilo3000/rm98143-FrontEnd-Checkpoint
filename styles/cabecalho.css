@@ -1,0 +1,40 @@
+/*Mostra a formatação do cabeçalho, como tirar de uma lista e alinhar os conteúdos lado a lado*/
+.cabecalho{
+    background-color: var(--azul);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.cabecalho-info{
+    display: flex;
+    align-items: center;
+    color: var(--branco);
+}
+
+.cabecalho-logo{
+    width: 7rem;
+}
+
+.cabecalho-titulo-destaque{
+    font-weight: 700;
+    font-size: var(--tamanho-fonte-titulo);
+    font-family: var(--fonte-principal);
+}
+
+.cabecalho-item{
+    margin-left: 5.9rem;
+    font-size: var(--tamanho-fonte);
+    font-family: var(--fonte-principal);
+    color: var(--preto);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--branco);
+}
+
+.cabecalho-lista{
+    list-style: none;
+    display: flex;
+}
