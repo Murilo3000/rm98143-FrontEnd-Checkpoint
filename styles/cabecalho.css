@@ -4,13 +4,20 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    
+}
+
+.navbar{
+    padding: 0 !important;
 }
 
 .cabecalho-info{
     display: flex;
     align-items: center;
-    color: var(--branco);
+    color: var(--branco) !important;
+    font-size: 20px !important;
+    margin: 3rem !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 .cabecalho-logo{
@@ -18,9 +25,13 @@
 }
 
 .cabecalho-titulo-destaque{
-    font-weight: 700;
+    font-weight: 700 !important;
+    font-size: 25px !important;
     font-size: var(--tamanho-fonte-titulo);
     font-family: var(--fonte-principal);
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
 }
 
 .cabecalho-item{
