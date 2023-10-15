@@ -5,7 +5,7 @@
 @import url(./styles/banner.css);
 @import url(./styles/sobre.css);
 @import url(./styles/footer.css);
-
+@import url(./styles/carrosel.css);
 
 :root{
     --branco: #FFFFFF;

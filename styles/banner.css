@@ -30,3 +30,9 @@
     font-family: var(--fonte-principal);
     font-weight: 700;
 }
+
+@media screen and (max-width:720px){
+    .letraBanner{
+        font-size: 40px;
+    }
+}

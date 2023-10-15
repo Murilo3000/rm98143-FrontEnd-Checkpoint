@@ -1,51 +1,20 @@
-/*Mostra a formatação do cabeçalho, como tirar de uma lista e alinhar os conteúdos lado a lado*/
-.cabecalho{
-    background-color: var(--azul);
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+nav{
+    background-color: var(--azul) !important;
 }
 
-.navbar{
-    padding: 0 !important;
+.logo{
+    width: 70px;
 }
 
-.cabecalho-info{
-    display: flex;
-    align-items: center;
+.titulo{
+    font-weight: bold;
+    color: var(--branco) !important;
+    font-size: 40px !important;
+    font-family: var(--fonte-principal);
+}
+
+.item{
     color: var(--branco) !important;
     font-size: 20px !important;
-    margin: 3rem !important;
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-}
-
-.cabecalho-logo{
-    width: 7rem;
-}
-
-.cabecalho-titulo-destaque{
-    font-weight: 700 !important;
-    font-size: 25px !important;
-    font-size: var(--tamanho-fonte-titulo);
-    font-family: var(--fonte-principal);
-    display: flex;
-    align-items: center;
-    gap: 1.1rem;
-}
-
-.cabecalho-item{
-    margin-left: 5.9rem;
-    font-size: var(--tamanho-fonte);
-    font-family: var(--fonte-principal);
-    color: var(--preto);
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 700;
-    color: var(--branco);
-}
-
-.cabecalho-lista{
-    list-style: none;
-    display: flex;
+    font-family: var(--fonte-secundario);
 }
